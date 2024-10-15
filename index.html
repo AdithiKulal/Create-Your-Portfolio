@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div data-spy="scroll" data-target="#navbarSupportedContent" data-offset="50">
+        <section id="home" class="bg-image" style="background-image: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YWJzdHJhY3R8ZW58MHx8MHx8fDA%3D');">
+            <div class="container h-100">
+                <div class="row justify-content-center align-items-center h-100">
+                    <div class="col-md-8 text-center">
+                        <h1 class="display-4 text-white">Welcome to my portfolio!</h1>
+                        <p class="text-white lead">Explore my work and experience.</p>
+                        <button class="btn btn-light">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="bg-light">
+            <div class="container py-5">
+                <h1 class="text-center">About me</h1>
+                <p class="text-justify">My Name is Shwetha. I am a data scientist and a coder</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://img.freepik.com/premium-photo/young-female-lawyer-working-her-luxurious-office-holding-laptop-standing-against-panoramic-window-with-view-business-district_141192-1324.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Shewetha</h5>
+                                <p class="card-text">Coding</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="bg-white">
+            <div class="container py-5">
+                <h1 class="text-center">My projects</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://picsum.photos/200/300?random=1" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Personal Website</h5>
+                                <p class="card-text">Designed and developed a responsive personal website using HTML, CSS, JavaScript, and Bootstrap.</p>
+                                <a href="#" class="btn btn-primary">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more project cards -->
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="bg-dark">
+            <div class="container py-5">
+                <h1 class="text-center text-white">Get in touch</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="name" class="text-white">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="text-white">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                    <button type="submit" class="btn btn-light">Send</button

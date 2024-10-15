@@ -1,0 +1,184 @@
+body {
+    font-family: 'Inter', 'Poppins', 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Navbar styles */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-link {
+    color: #333;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #666;
+}
+
+/* Section styles */
+
+section {
+    padding: 50px 0;
+    min-height: 100vh;
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg-light {
+    background-color: #f7f7f7;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Home section styles */
+
+#home {
+    background-image: url('background.jpg');
+}
+
+#home h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Merriweather', serif;
+}
+
+#home p {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* About section styles */
+
+#about h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Didot', serif;
+}
+
+#about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Projects section styles */
+
+#projects h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Arial Nova', sans-serif;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Contact section styles */
+
+#contact h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Cambria', serif;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#contact button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#about {
+    background-color: #f7f7f7;
+    /* Light Gray */
+    padding: 50px 0;
+}
+
+#projects {
+    background-color: #333;
+    /* Dark Gray */
+    color: #fff;
+    /* White text */
+    padding: 50px 0;
+}
+
+#projects h1,
+#projects h5 {
+    color: #fff;
+    /* White headings */
+}
+
+#projects p {
+    color: #ccc;
+    /* Light Gray text */
+}
+
+#projects .card {
+    background-color: #444;
+    /* Dark Gray card background */
+    border: 1px solid #555;
+    /* Dark Gray border */
+}
+
+#projects .card-img-top {
+    opacity: 0.5;
+    /* Image opacity */
+}
